@@ -1,0 +1,187 @@
+body{
+    font:13px "黑体","微软雅黑",Microsoft Yahei, Tahoma, Geneva, sans-serif;
+}
+table{
+    border-collapse:collapse;
+}
+table tr.even{
+    background-color: #e9f5f8;
+}
+table tr td{
+    vertical-align:center;
+    padding: 10px 15px;
+}
+p{
+    margin:0px;
+}
+a{
+    text-decoration: none;
+}
+a,a:link,a:visited{
+    color: #428bca;
+}
+/*表格第一列设置*/
+.cv-item table tr td:first-child{
+    width: 20%;
+    font-size: 12px;
+}
+.cv-skill table tr td:first-child{
+    width: 40%;
+}
+/*圆形*/
+.icon-circle{
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+}
+.icon-circle.blue{
+    background-color: #2ba3dd;
+}
+.icon-circle.grey{
+    background-color: #dee0d6;
+}
+/*向右箭头*/
+.arrow-right {
+    width:0; 
+    height:0; 
+    border-top:8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #2ba3dd;
+}
+/*名字与期望职位*/
+.cv-head{
+    height:40px;
+    background-color: #2ba3dd;
+    font-size: 10px;
+    color:#fff;
+}
+.cv-head p{
+    line-height: 40px;
+    float:right;
+}
+.cv-head p a{
+    color:#fff;
+    text-decoration: none;
+}
+.cv-head p span{
+    display: inline-block;
+}
+.cv-name-job{
+    height: 130px;
+}
+.cv-name-job div{
+    width: 250px;
+    margin:20 auto;
+}
+.cv-name{
+    font-family: '宋体';
+    font-size: 50px;
+    letter-spacing: 25px;
+    padding-left: 20px;
+}
+.cv-job{
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.cv-job .icon-circle{
+    margin: 0px 20px;
+}
+/*项目与联系方式*/
+.cv-item-contact{
+    height:450px;
+}
+.cv-item{
+    width: 500px;
+    height:450px;
+    margin-right: 15px;
+    float: left;
+}
+.cv-contact{
+    width: 200px;
+    height: 450px;
+    float:left;
+    background-color: #e9f5f8;
+}
+.cv-contact p{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.cv-contact div{
+    font-family: '宋体';
+}
+.cv-contact div p{
+    margin-top: 10px;
+}
+/*工作经历*/
+.cv-work-company,.cv-work-job{
+    margin-bottom: 10px;
+}
+.cv-work-job{
+    color: #797979;
+    font-size: 13px;
+    font-family: '宋体';
+}
+/*技能与教育背景*/
+.cv-skill-edu{
+    height:200px;
+    margin-top: 20px;
+}
+.cv-skill{
+    float:left;
+    height:200px;
+    width:300px;
+}
+.cv-level span{
+    margin-left: 5px;
+}
+.cv-edu{
+    float:left;
+    width:400px;
+}
+.cv-edu p{
+    font-family: '宋体';
+    font-size: 13px;
+}
+/*教育背景*/
+.cv-content-head{
+    position:relative;
+    height: 30px;
+    border-bottom: 2px solid #2ba3dd;
+    clear: left;
+}
+.cv-content-head i{
+    display: inline-block;
+    width:20px;
+    height:30px;
+    background-color: #2ba3dd;
+}
+.cv-content-head .cv-content-title{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    font-size: 20px;
+}
+.cv-content-describtion{
+    font-family: '宋体';
+    font-size: 13px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.cv-content-role{
+    color:#797979;
+    font-size: 13px;
+    font-family: '宋体';
+}
+/*自我评价*/
+.cv-about-detail{
+    font-family: '宋体';
+    padding: 10px 15px;
+}
+.cv-about{
+    height: 150px;
+}
+.cv-bottom{
+    height:20px;
+    background-color: #2ba3dd;
+}
